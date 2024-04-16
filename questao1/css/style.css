@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Krona One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+section.conteudo-principal {
+    background-color: black;
+}
+
+.centralizado-horizontal {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.explicacao h1 {
+    width: 593px;
+    height: 168px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Krona One";
+    font-size: 36px;
+    font-weight: 400px;
+    line-height: 56px;
+    text-align: left;
+    color: #22D4FD;
+    margin-bottom: 5%;
+}
+
+.explicacao h4 {
+    width: 593px;
+    height: 144px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 36px;
+    text-align: left;
+    color: #F6F6F6;
+    margin-bottom: 5%;
+}
+
+.explicacao button {
+    display: inline-block;
+    background-color: #22D4FD;
+    color: black;
+    width: 280px;
+    height: 79px;
+    border: none;
+    border-radius: 16px;
+    padding: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+
+.explicacao button:hover{
+    background-color: aliceblue;
+}
+
+.quadro-azul {
+    width: 466px;
+    height: 526px;
+    position: absolute;
+    margin-left: 50%;
+    border-radius: 16px;
+    opacity: 1; /* Alterado para 1 para garantir que o elemento seja visível */
+    border: 3px solid #22D4FD;
+    z-index: 1;
+}
+
+.imagem-principal {
+    width: 467.71px;
+    height: 532px;
+    position:absolute;
+    margin-left: 45%;
+    margin-top: 5%;
+    border-radius: 16px;
+    opacity: 1; 
+    z-index: 2;
+}
+
+.imagem-seta-embaixo {
+    width: 418.82px;
+    height: 53.1px;
+    position:absolute;
+    margin-top: 35%;
+    margin-left: 45%;
+    border: 3px 0px 0px 0px;
+    opacity: 1;
+    z-index: 3;
+}
+
+.imagem-seta-encima {
+    width: 418.82px;
+    height: 53.1px;
+    position:absolute;
+    margin-left: 45%;
+    border: 3px 0px 0px 0px;
+    opacity: 1;
+    z-index: 4;
+}
+
+.imagem-star {
+    width: 54.11px;
+    height: 66.88px;
+    position: absolute;
+    margin-bottom: 4%;
+    margin-left: 70%;
+    opacity: 0px;
+    z-index: 5;
+}
+
+@media (max-width: 1024px) {
+    /* Ocultar elementos extras em telas menores */
+    .quadro-azul,
+    .imagem-principal,
+    .imagem-seta-embaixo,
+    .imagem-seta-encima,
+    .imagem-star {
+        display: none;
+    }
+}
+
+
+
+

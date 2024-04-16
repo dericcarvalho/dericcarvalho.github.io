@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Krona One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+section.conteudo-principal {
+    background-color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container button {
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    width: 280px;
+    height: 79px;
+    border: 1px black solid;
+    border-color: black;
+    border-radius: 16px;
+    padding: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+}
+
+.container button:hover{
+    background-color: aliceblue;
+}
+
